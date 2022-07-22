@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Basic Synthesis",
+    "icon": "Basic_Synthesis_(carpenter).png",
+    "description": "Increase Progress",
+    "efficiency": "120%",
+    "success_rate": "100%"
+  }
+]
