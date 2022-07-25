@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Basic Synthesis",
+        "icon": "actions/synthesis/basic_synthesis.png",
+        "description": "Increase Progress",
+        "progress": 120,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 0,
+        "durability_cost": 10
+    },
+    {
+        "name": "Careful Synthesis",
+        "icon": "actions/synthesis/careful_synthesis.png",
+        "description": "Increase Progress",
+        "progress": 150,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 7,
+        "durability_cost": 10
+    },
+    {
+        "name": "Delicate Synthesis",
+        "icon": "actions/synthesis/delicate_synthesis.png",
+        "description": "Increase Progress and Quality",
+        "progress": 100,
+        "quality": 100,
+        "success_rate": 100,
+        "cp_cost": 32,
+        "durability_cost": 10
+    },
+    {
+        "name": "Focused Synthesis",
+        "icon": "actions/synthesis/focused_synthesis.png",
+        "description": "Increase Progress",
+        "progress": 200,
+        "quality": 0,
+        "success_rate": 50,
+        "cp_cost": 5,
+        "durability_cost": 10
+    },
+    {
+        "name": "Groudwork",
+        "icon": "actions/synthesis/groundwork.png",
+        "description": "Increase Progress at greater cost to durability",
+        "progress": 200,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 18,
+        "durability_cost": 20
+    },
+    {
+        "name": "Intensive Synthesis",
+        "icon": "actions/synthesis/intensive_synthesis.png",
+        "description": "Increase Progress",
+        "progress": 400,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 6,
+        "durability_cost": 10
+    },
+    {
+        "name": "Muscle Memory",
+        "icon": "actions/synthesis/muscle_memory.png",
+        "description": "Increase Progress",
+        "progress": 300,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 6,
+        "durability_cost": 10
+    },
+    {
+        "name": "Prudent Synthesis",
+        "icon": "actions/synthesis/prudent_synthesis.png",
+        "description": "Increase Progress at half the durability cost",
+        "progress": 180,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 18,
+        "durability_cost": 5
+    },
+    {
+        "name": "Rapid Synthesis",
+        "icon": "actions/synthesis/rapid_synthesis.png",
+        "description": "Increase Progress",
+        "progress": 500,
+        "quality": 0,
+        "success_rate": 50,
+        "cp_cost": 9,
+        "durability_cost": 10
+    }
+]

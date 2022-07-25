@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Waster Not",
+        "icon": "actions/others/waste_not.png",
+        "description": "Reduces loss of durability by 50% for the next four steps.",
+        "cp_cost": 56
+    },
+    {
+        "name": "Waster Not II",
+        "icon": "actions/others/waste_not_ii.png",
+        "description": "Reduces loss of durability by 50% for the next eight steps.",
+        "cp_cost": 98
+    },
+    {
+        "name": "Final Appraisal",
+        "icon": "actions/others/final_appraisal.png",
+        "description": "The next action that would complete item synthesis will instead leave one progress point remaining.",
+        "cp_cost": 1
+    },
+    {
+        "name": "Master's Mend",
+        "icon": "actions/others/master's_mend.png",
+        "description": "Restores item durability by 30.",
+        "cp_cost": 88
+    },
+    {
+        "name": "Observe",
+        "icon": "actions/others/observe.png",
+        "description": "Do nothing for one step.",
+        "cp_cost": 12
+    },
+    {
+        "name": "Tricks of the Trade",
+        "icon": "actions/others/tricks_of_the_trade.png",
+        "description": "Restores 20 CP.",
+        "cp_cost": 0
+    }
+]

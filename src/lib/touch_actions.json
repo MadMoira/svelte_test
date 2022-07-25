@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Basic Touch",
+        "icon": "actions/touch/basic_touch.png",
+        "description": "Increase Quality",
+        "progress": 0,
+        "quality": 100,
+        "success_rate": 100,
+        "cp_cost": 18,
+        "durability_cost": 10
+    },
+    {
+        "name": "Advanced Touch",
+        "icon": "actions/touch/advanced_touch.png",
+        "description": "Increase Quality",
+        "progress": 0,
+        "quality": 150,
+        "success_rate": 100,
+        "cp_cost": 46,
+        "durability_cost": 10
+    },
+    {
+        "name": "Standard Touch",
+        "icon": "actions/touch/standard_touch.png",
+        "description": "Increases quality.",
+        "progress": 0,
+        "quality": 125,
+        "success_rate": 100,
+        "cp_cost": 32,
+        "durability_cost": 10
+    },
+    {
+        "name": "Byregot's Blessing",
+        "icon": "actions/touch/byregot's_blessing.png",
+        "description": "Increases quality. Inner Quiet effect ends upon use",
+        "progress": 0,
+        "quality": 100,
+        "success_rate": 100,
+        "cp_cost": 24,
+        "durability_cost": 10
+    },
+    {
+        "name": "Focused Touch",
+        "icon": "actions/touch/focused_touch.png",
+        "description": "Increase Quality",
+        "progress": 0,
+        "quality": 150,
+        "success_rate": 50,
+        "cp_cost": 18,
+        "durability_cost": 10
+    },
+    {
+        "name": "Hasty Touch",
+        "icon": "actions/touch/hasty_touch.png",
+        "description": "Increase Quality",
+        "progress": 0,
+        "quality": 100,
+        "success_rate": 60,
+        "cp_cost": 0,
+        "durability_cost": 10
+    },
+    {
+        "name": "Precise Touch",
+        "icon": "actions/touch/precise_touch.png",
+        "description": "Increase Quality",
+        "progress": 0,
+        "quality": 150,
+        "success_rate": 100,
+        "cp_cost": 18,
+        "durability_cost": 10
+    },
+    {
+        "name": "Preparatory Touch",
+        "icon": "actions/touch/preparatory_touch.png",
+        "description": "Increases quality at a greater cost to durability.",
+        "progress": 0,
+        "quality": 200,
+        "success_rate": 100,
+        "cp_cost": 40,
+        "durability_cost": 20
+    },
+    {
+        "name": "Prudent Touch",
+        "icon": "actions/touch/prudent_touch.png",
+        "description": "Increases quality at half the durability cost.",
+        "progress": 0,
+        "quality": 100,
+        "success_rate": 100,
+        "cp_cost": 25,
+        "durability_cost": 5
+    },
+    {
+        "name": "Reflect",
+        "icon": "actions/touch/reflect.png",
+        "description": "Increases quality at half the durability cost.",
+        "progress": 0,
+        "quality": 100,
+        "success_rate": 100,
+        "cp_cost": 6,
+        "durability_cost": 10
+    },
+    
+    {
+        "name": "Trained Eye",
+        "icon": "actions/touch/trained_eye.png",
+        "description": "Increases quality by 100%.",
+        "progress": 0,
+        "quality": 0,
+        "success_rate": 100,
+        "cp_cost": 250,
+        "durability_cost": 10
+    },
+    {
+        "name": "Trained Finesse",
+        "icon": "actions/touch/trained_finesse.png",
+        "description": "Increases quality at no cost to durability.",
+        "progress": 0,
+        "quality": 100,
+        "success_rate": 100,
+        "cp_cost": 32,
+        "durability_cost": 0
+    }
+]

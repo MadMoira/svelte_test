@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Great Strides",
+        "icon": "actions/buff/great_strides.png",
+        "description": "Increases the efficiency of next Touch action by 100%",
+        "cp_cost": 32
+    },
+    {
+        "name": "Innovation",
+        "icon": "actions/buff/innovation.png",
+        "description": "Increases efficiency of Touch actions by 50% for the next four steps.",
+        "cp_cost": 18
+    },
+    {
+        "name": "Manipulation",
+        "icon": "actions/buff/manipulation.png",
+        "description": "Restores 5 points of durability after each step for the next eight steps.",
+        "cp_cost": 96
+    },
+    {
+        "name": "Veneration",
+        "icon": "actions/buff/veneration.png",
+        "description": "Increases efficiency of Synthesis actions by 50% for the next four steps.",
+        "cp_cost": 18
+    }
+]
