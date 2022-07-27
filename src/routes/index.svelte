@@ -18,7 +18,7 @@
 
     function copyMacroToClipboard() {
         let result = currentActions.map(function(action) {
-            return `\\ac "${action}" <wait.3>`;
+            return `/ac "${action}" <wait.3>`;
         }).join("\n");
         navigator.clipboard.writeText(result);
     }
@@ -30,17 +30,25 @@
     onDestroy(actions_unsubscribe);
 </script>
 
-<div class="flex flex-row">
-    <div class="basis-1/2">
+<div class="navbar bg-black">
+    <div class="flex-1">
+        <a class="text-white btn btn-ghost normal-case text-xl">Maly Crafter</a>
+    </div>
+</div>
+
+<div class="bg-gray-100 flex sm:flex-row flex-col">
+    <div class="sm:basis-2/3" >
         <ListActions title="Synthesis" data={synt_data} />
         <ListActions title="Touch" data={touch_data} />
         <ListActions title="Buff" data={buff_data} />
         <ListActions title="Other" data={other_data} />
     </div>
-    <div class="basis-1/2">
-        <button class="btn-primary" on:click={copyMacroToClipboard}>Copy macro</button>
-        <button class="btn-primary" on:click={resetMacro}>Clear macro</button>
-        <p>{@html macro_text}</p>
+    <div class="p-3 sm:basis-1/3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <button class="btn-info btn glass btn-block sm:btn-md" on:click={copyMacroToClipboard}>Copy macro</button>
+            <button class="btn-info btn glass btn-block sm:btn-md" on:click={resetMacro}>Clear macro</button>
+        </div>
+        <p class="pt-3">{@html macro_text}</p>
     </div>
 </div>
 

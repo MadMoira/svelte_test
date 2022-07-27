@@ -21,9 +21,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bootstrap": "^5.2.0",
-		"daisyui": "^2.20.0",
-		"normalize.css": "^8.0.1",
-		"sakura.css": "^1.4.1"
+		"daisyui": "^2.20.0"
 	}
 }

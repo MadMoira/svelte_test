@@ -1,12 +1,12 @@
 [
     {
-        "name": "Waster Not",
+        "name": "Waste Not",
         "icon": "actions/others/waste_not.png",
         "description": "Reduces loss of durability by 50% for the next four steps.",
         "cp_cost": 56
     },
     {
-        "name": "Waster Not II",
+        "name": "Waste Not II",
         "icon": "actions/others/waste_not_ii.png",
         "description": "Reduces loss of durability by 50% for the next eight steps.",
         "cp_cost": 98

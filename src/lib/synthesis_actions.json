@@ -40,7 +40,7 @@
         "durability_cost": 10
     },
     {
-        "name": "Groudwork",
+        "name": "Groundwork",
         "icon": "actions/synthesis/groundwork.png",
         "description": "Increase Progress at greater cost to durability",
         "progress": 200,
