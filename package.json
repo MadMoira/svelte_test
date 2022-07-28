@@ -9,6 +9,8 @@
 		"prepare": "svelte-kit sync"
 	},
 	"devDependencies": {
+		"@iconify/icons-bi": "^1.2.7",
+		"@iconify/svelte": "^2.2.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.70",
 		"@sveltejs/kit": "next",
@@ -21,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.20.0"
+		"daisyui": "^2.20.0",
+		"sortablejs": "^1.15.0"
 	}
 }

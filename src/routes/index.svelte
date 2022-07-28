@@ -8,6 +8,7 @@
 
     import { actions } from '$lib/stores/actions_store.js';
     import ListActions from '$lib/components/ListActions.svelte';
+    import MacroResult from '$lib/components/MacroResult.svelte';
     
     let currentActions = [];
     $: macro_text = currentActions.map(function(action){
@@ -44,11 +45,16 @@
         <ListActions title="Other" data={other_data} />
     </div>
     <div class="p-3 sm:basis-1/3">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <button class="btn-info btn glass btn-block sm:btn-md" on:click={copyMacroToClipboard}>Copy macro</button>
-            <button class="btn-info btn glass btn-block sm:btn-md" on:click={resetMacro}>Clear macro</button>
+        <div class="dropdown dropdown-end">
+            <!-- svelte-ignore a11y-label-has-associated-control -->
+            <label tabindex="0" class="btn m-1">Macro Options</label>
+            <ul tabindex="0" class="dropdown-content menu shadow bg-base-100 rounded-box">
+                <li><div class="btn-info btn glass btn-block" on:click={copyMacroToClipboard}>Copy Macro</div></li>
+                <li><div class="btn-info btn glass btn-block" on:click={resetMacro}>Clear Macro</div></li>
+            </ul>
         </div>
-        <p class="pt-3">{@html macro_text}</p>
+        <MacroResult />
+        <!-- <p class="pt-3">{@html macro_text}</p> -->
     </div>
 </div>
 
